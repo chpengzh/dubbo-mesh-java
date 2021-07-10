@@ -1,0 +1,1 @@
+dubbo-proxy-client=org.apache.dubbo.rpc.protocol.dubbo.DubboProxyClientProtocol

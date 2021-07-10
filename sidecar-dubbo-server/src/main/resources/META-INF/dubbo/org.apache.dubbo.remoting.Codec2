@@ -1,0 +1,1 @@
+dubbo-proxy-server=org.apache.dubbo.rpc.protocol.dubbo.DubboProxyServerCodec

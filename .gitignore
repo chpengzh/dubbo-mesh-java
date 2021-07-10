@@ -1,0 +1,49 @@
+#.gitignore for java
+*.class
+test/output/
+test/test/
+test/stable/
+logs/
+output/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+**/target/
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+
+## .gitignore for intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## .gitignore for eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+## MacOS
+.DS_Store
+pom.xml.versionsBackup
+.deploy/
+__naming__
+dependency-reduced-pom.xml
