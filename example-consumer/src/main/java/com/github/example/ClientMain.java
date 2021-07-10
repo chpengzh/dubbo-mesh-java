@@ -32,15 +32,7 @@ public class ClientMain {
         reference.setUrl("dubbo-proxy-client://127.0.0.1:8999");
         TestApi testApi = reference.get();
 
-//        while (true) {
-//            try {
         RpcContext.getContext().setAttachment("abcde", "xxxx");
         System.err.println(JSON.toJSON(testApi.sayHello(new TestModel("chpengzh"), 12)));
-//                Thread.sleep(10000L);
-//            } catch (Throwable er) {
-//                er.printStackTrace();
-//            }
-//        }
-
     }
 }
